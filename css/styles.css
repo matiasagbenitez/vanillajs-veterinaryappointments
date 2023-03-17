@@ -1,0 +1,73 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(../fondo.jpg);
+  background-size: fixed;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.container {
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+}
+
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: white;
+}
+.lista-citas .cita {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin:0;
+}
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+.lista-citas .cita span {
+  font-weight: bold;
+}
+textarea {
+    height: 200px!important;
+}
+
+svg {
+  width: 21px;
+}
+.alert .danger{
+  background-color: red;
+}
+
+.alert .success{
+  background-color: greenyellow
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
